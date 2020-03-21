@@ -54,14 +54,8 @@ p.bodyCopy{
 	text-decoration: none;
 }
 
-#subtitle{
-	font-family: 'Roboto', sans-serif;
-	font-size: 1vw;
-	color: #848484;
-}
 
 /*Fixing leading on menu*/
-
 h1.websiteTop{
 		line-height: 20%;
 
