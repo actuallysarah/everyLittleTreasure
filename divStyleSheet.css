@@ -21,6 +21,7 @@ p.bodyCopy{
 	text-align: left;
 }
 
+
 #infoPageContainer{
 	padding-top: 1%;
 }
@@ -50,12 +51,19 @@ p.bodyCopy{
 
 #menuOptions{
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 2vw;
 	color: #848484;
 	word-spacing: 5vw;
 	text-decoration: none;
 }
 
+#subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vw;
+	color: #848484;
+	text-decoration: none;
+
+}
 
 /*Fixing leading on menu*/
 h1.websiteTop{
@@ -67,6 +75,8 @@ p.websiteTop{
 		line-height: 30%;
 
 }
+
+
 /* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 	div.square {
 		width: 300px;
@@ -75,7 +85,7 @@ p.websiteTop{
    		z-index: -1;
 			display: inline-block;
   		vertical-align: middle;
-			margin: 10px;
+			margin: 5px;
 			border-style: double;
 			border-width: 10px;
 		}
