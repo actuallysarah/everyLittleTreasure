@@ -19,19 +19,19 @@ All the squares are styled as a class, and individual colors are assigned with a
 		}
 
 		#action{
-			border-color: #acd5ed;
+			border-color: #e8e574; /*yellow*/
 		}
 
 		#ship{
-			border-color: #ef7677;
+			border-color: #ed7666; /*coral*/
 		}
 
 		#item{
-			border-color: #e3b726;
+			border-color: #7b964d; /*green*/
 		}
 
 		#concept{
-			border-color: #bb91b6;
+			border-color: #64a9bc; /*blue*/
 		}
 
 
