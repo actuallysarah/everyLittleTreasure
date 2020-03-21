@@ -3,6 +3,34 @@ stylesheet for all the divs and contained text.
 All the squares are styled as a class, and individual colors are assigned with an ID
 ********************************************************/
 
+/* STYLING FOR THE aHEAD and MENU*/
+h1.aHead{
+	    font-family: Abril Fatface;
+			font-size: 8vw;
+}
+
+#conBlue{
+	color: #64a9bc;
+}
+
+#actYellow{
+	color: #e8e574;
+}
+
+#itemGreen{
+	color: #7b964d;
+}
+
+#shipRed{
+	color: #ed7666
+}
+
+#menuOptions{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3vw;
+	color: #848484;
+	word-spacing: 5vw;
+}
 
 /* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 	div.square {
