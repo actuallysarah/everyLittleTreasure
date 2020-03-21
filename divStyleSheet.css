@@ -1,0 +1,81 @@
+/********************************************************
+stylesheet for all the divs and contained text.
+All the squares are styled as a class, and individual colors are assigned with an ID
+********************************************************/
+
+
+/* STYLING FOR THE SQUARES WITH ANIMATIONS*/
+	div.square {
+		width: 300px;
+   		height: 300px;
+   		background-color:white;
+   		z-index: -1;
+			display: inline-block;
+  		vertical-align: middle;
+			margin: 10px;
+			border-style: double;
+			border-width: 10px;
+			border-color: lightblue;
+		}
+
+		#action{
+			border-color: #acd5ed;
+		}
+
+		#ship{
+			border-color: #ef7677;
+		}
+
+		#item{
+			border-color: #e3b726;
+		}
+
+		#concept{
+			border-color: #bb91b6;
+		}
+
+
+		img {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+		margin-top: 25px;
+		width: 250px;
+		}
+
+/*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
+	div.popup{
+		position: fixed;
+		top: 20%;
+		left: 30%;
+		border-style: double;
+		border-width: 10px;
+		border-color: lightblue;
+		z-index: 3;
+		background-color:white;
+		visibility: hidden;
+		width: 40%;
+		height: 60%;
+		padding: 25px;
+		box-sizing: border-box;
+	}
+
+	#answerText{
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+	}
+
+	#dimmedScreen{
+		position: fixed;
+		z-index: 2;
+		visibility: hidden;
+		background-color:white;
+		width: 100%;
+		height: 100%;
+		opacity: 0.2;
+	}
+
+	#parentDiv{
+		text-align: center;
+	}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+
+<script type="text/javascript" src="popUpScript.js">
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="divStyleSheet.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+ 	<div class="popup" id="popUpBox">
+		<p id="answerText">click outside to exit this box</p>
+	</div>
+
+	<div id="dimmedScreen" onclick="closePopup()"></div>
+
+<div id="parentDiv">
+
+	<div class="square" id="action" onclick="showPopup()">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+
+	<div class="square" id="item" onclick="showPopup('I love laughing with close friends about things no one else understands', 'item')">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+
+	<div class="square" id="ship" onclick="showPopup('I treasure what my friends and I call \“tea time\”. The three of us work and are in school, so we aren’t able to get together that often, but when we do we have tea time. Basically it’s just us gossiping and discussing our lives and life issues. To some it may sound silly but it’s like a release for us. We’re able to speak without judgement and get real feedback without getting our feelings hurt, knowing it’s all out of love. ', 'ship')">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+
+	<div class="square" id="concept" onclick="showPopup('Nature. Whenever I\’m stressed or need to have a boost of energy I always go outside whether it be for a walk, hike, bike ride. Being surrounded by the trees, sunlight, and water is the most relaxing serene feeling there is. I definitely treasure It and hope we can all take care of it.', 'concept')">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+
+	<div class="square" onclick="showPopup('I love laughing with close friends about things no one else understands')">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+
+	<div class="square" onclick="showPopup('I love laughing with close friends about things no one else understands')">
+	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
+	</div>
+	
+
+</div>
+
+
+
+</body>
+
+
+
+
+</html>
