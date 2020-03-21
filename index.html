@@ -16,40 +16,27 @@
 
 <!--DIVS FOR POPUP BOX-->
  	<div class="popup" id="popUpBox">
-		<p id="answerText">click outside to exit this box</p>
+		<div id="popupTextContainer">
+		<p id="answerText">placeholder answer text</p>
+		<p id="timeStamp">Placeholder timestamp</p>
+		</div>
+		<p id="backButton" onclick="closePopup()">close</p>
 	</div>
 
 	<div id="dimmedScreen" onclick="closePopup()"></div>
 
 <!--HEADER AND MENU-->
-<h1 class="aHead"><span id="conBlue">What</span> <span id="actYellow">do</span> <span id="itemGreen">you</span> <span id="shipRed">treasure?</span></h1>
-<p id="menuOptions">About Support Submit Contact</p>
+<h1 id="aHead" class= "websiteTop"><a href="index.html" id="aHead"><span id="conBlue">What</span> <span id="actYellow">do</span> <span id="itemGreen">you</span> <span id="shipRed">treasure?</span></a></h1>
+<p id="menuOptions" class= "websiteTop"><a href="about.html" id="menuOptions">About</a> <a href="contact.html" id="menuOptions">Contact</a></p>
+
+
 <!--ALL OF THOSE TREASURES-->
 <div id="parentDiv">
 
-	<div class="square" id="action" onclick="showPopup()">
+	<div class="square" id="concept" onclick="showPopup('concept', '12/3/2019 22:16:45', 'When I was a little girl my mom introduced me to sewing. She was such a beautiful and creative sewer who could and did make anything, from a ski suit to her own wedding gown. I wasn’t always receptive to her coaching, but shared the immense satisfaction of creating something with your own hands. Sharing her joy and skill was a gift, and I have treasured it my whole life.')">
 	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
 	</div>
 
-	<div class="square" id="item" onclick="showPopup('I love laughing with close friends about things no one else understands', 'item')">
-	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
-	</div>
-
-	<div class="square" id="ship" onclick="showPopup('I treasure what my friends and I call \“tea time\”. The three of us work and are in school, so we aren’t able to get together that often, but when we do we have tea time. Basically it’s just us gossiping and discussing our lives and life issues. To some it may sound silly but it’s like a release for us. We’re able to speak without judgement and get real feedback without getting our feelings hurt, knowing it’s all out of love. ', 'ship')">
-	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
-	</div>
-
-	<div class="square" id="concept" onclick="showPopup('Nature. Whenever I\’m stressed or need to have a boost of energy I always go outside whether it be for a walk, hike, bike ride. Being surrounded by the trees, sunlight, and water is the most relaxing serene feeling there is. I definitely treasure It and hope we can all take care of it.', 'concept')">
-	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
-	</div>
-
-	<div class="square" onclick="showPopup('I love laughing with close friends about things no one else understands')">
-	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
-	</div>
-
-	<div class="square" onclick="showPopup('I love laughing with close friends about things no one else understands')">
-	<img src="starAnimation000.jpg" onmouseover="this.src='starAnimationwhite.gif'" onmouseout="this.src='starAnimation000.jpg'">
-	</div>
 
 
 </div>
