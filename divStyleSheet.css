@@ -10,6 +10,7 @@ h1.bHead{
 	font-size: 3vw;
 	text-decoration: none;
 	line-height: 20%;
+	text-align: left;
 }
 
 p.bodyCopy{
@@ -17,6 +18,7 @@ p.bodyCopy{
 	font-size: 1vw;
 	color: #848484;
 	margin-bottom: 1.5em;
+	text-align: left;
 }
 
 #infoPageContainer{
