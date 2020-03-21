@@ -18,9 +18,9 @@ function showPopup(styleId, timeStamp, answer){
   }
   else if (styleId=='item'){
     document.getElementById('popUpBox').style.borderColor='#7b964d';
-    document.getElementById('timeStamp').color='#7b964d';
+    document.getElementById('timeStamp').style.color='#7b964d';
   }
-  else if (styleId=='relationship'){
+  else if (styleId=='ship'){
     document.getElementById('popUpBox').style.borderColor='#ed7666';
     document.getElementById('timeStamp').style.color='#ed7666';
   }
