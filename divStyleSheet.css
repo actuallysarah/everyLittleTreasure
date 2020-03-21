@@ -3,10 +3,31 @@ stylesheet for all the divs and contained text.
 All the squares are styled as a class, and individual colors are assigned with an ID
 ********************************************************/
 
+/* STYLING FOR TEXT NEEDED FOR INFORMATIONAL PAGES (like bHead, body copy, etc)*/
+
+h1.bHead{
+	font-family: Abril Fatface;
+	font-size: 3vw;
+	text-decoration: none;
+	line-height: 20%;
+}
+
+p.bodyCopy{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	color: #848484;
+	margin-bottom: 1.5em;
+}
+
+#infoPageContainer{
+	padding-top: 1%;
+}
+
 /* STYLING FOR THE aHEAD and MENU*/
-h1.aHead{
-	    font-family: Abril Fatface;
-			font-size: 8vw;
+#aHead{
+	  font-family: Abril Fatface;
+		font-size: 8vw;
+		text-decoration: none;
 }
 
 #conBlue{
@@ -22,16 +43,34 @@ h1.aHead{
 }
 
 #shipRed{
-	color: #ed7666
+	color: #ed7666;
 }
 
 #menuOptions{
 	font-family: 'Roboto', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: #848484;
 	word-spacing: 5vw;
+	text-decoration: none;
 }
 
+#subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	color: #848484;
+}
+
+/*Fixing leading on menu*/
+
+h1.websiteTop{
+		line-height: 20%;
+
+}
+
+p.websiteTop{
+		line-height: 30%;
+
+}
 /* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 	div.square {
 		width: 300px;
@@ -43,23 +82,22 @@ h1.aHead{
 			margin: 10px;
 			border-style: double;
 			border-width: 10px;
-			border-color: lightblue;
+		}
+
+		#concept{
+			border-color: #64a9bc; /*blue*/
 		}
 
 		#action{
 			border-color: #e8e574; /*yellow*/
 		}
 
-		#ship{
-			border-color: #ed7666; /*coral*/
-		}
-
 		#item{
 			border-color: #7b964d; /*green*/
 		}
 
-		#concept{
-			border-color: #64a9bc; /*blue*/
+		#ship{
+			border-color: #ed7666; /*coral*/
 		}
 
 
@@ -74,7 +112,7 @@ h1.aHead{
 /*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
 	div.popup{
 		position: fixed;
-		top: 20%;
+		top: 10%;
 		left: 30%;
 		border-style: double;
 		border-width: 10px;
@@ -83,15 +121,43 @@ h1.aHead{
 		background-color:white;
 		visibility: hidden;
 		width: 40%;
-		height: 60%;
-		padding: 25px;
+		height: 80%;
+		padding: 35px;
 		box-sizing: border-box;
 	}
 
-	#answerText{
+	#popupTextContainer{
+		position: absolute;
+		width:80%;
+		left: 10%;
+		display: inline-block;
+
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
-		font-size: 20px;
+		font-size: 25px;
+
+		/* border for centering
+		border-style: double;
+		border-width: 10px;
+		border-color: black;
+		*/
+
+	}
+
+	#timeStamp{
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		text-align: right;
+
+	}
+
+	#backButton{
+		position: absolute;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		right: 10%;
+		bottom: 10%;
+		color: #848484;
 	}
 
 	#dimmedScreen{
@@ -99,9 +165,11 @@ h1.aHead{
 		z-index: 2;
 		visibility: hidden;
 		background-color:white;
+		top: 0%;
+		left: 0%;
 		width: 100%;
 		height: 100%;
-		opacity: 0.2;
+		opacity: 0.5;
 	}
 
 	#parentDiv{
