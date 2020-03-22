@@ -1,5 +1,14 @@
+/********************************************************
+FUNCTIONS TO OPEN AND CLOSE A POPUP WITH INDIVIDUAL
+RESPONSES.
+********************************************************/
 
 //SHOWS THE POPUP WITH THE RESPONSE CORRESPODNING TO THAT ANIMATION
+/*takes in 4 strings: a category of response (styleId), a timestamp from time of submission,
+the file path for an illustration to be displayed (gifname), and the response to be displayed (answer)
+There are 4 strings accepted for styleId: 'concept' (makes it blue), 'action' (makes it yellow),
+'item' (makes it green), and 'ship' (short for "relationship") (makes it red).
+*/
 function showPopup(styleId, timeStamp, gifName, answer){
   //error message for no answer
   if (answer==undefined)
