@@ -142,12 +142,24 @@ p.websiteTop{
 		font-family: 'Roboto', sans-serif;
 		font-size: 25px;
 
+		height: 40%;
+		bottom: 50%;
+
 		/* border for centering
 		border-style: double;
 		border-width: 10px;
 		border-color: black;
 		*/
 
+	}
+
+	img.popupImage{
+		position: absolute;
+		display: block;
+  	margin-left: 25%;
+  	margin-right: auto;
+		bottom: 5%;
+		width: 40%;
 	}
 
 	#timeStamp{
