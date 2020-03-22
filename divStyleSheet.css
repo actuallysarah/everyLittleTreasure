@@ -56,7 +56,7 @@ p.bodyCopy{
 
 #menuOptions{
 	font-family: 'Roboto', sans-serif;
-	font-size: 60pxvw;
+	font-size: 40px;
 	color: #848484;
 	word-spacing: 5vw;
 	text-decoration: none;
@@ -77,11 +77,6 @@ a{
 /*Fixing leading on menu*/
 h1.websiteTop{
 		line-height: 20%;
-
-}
-
-p.websiteTop{
-		line-height: 30%;
 
 }
 
