@@ -8,6 +8,7 @@ RESPONSES.
 the file path for an illustration to be displayed (gifname), and the response to be displayed (answer)
 There are 4 strings accepted for styleId: 'concept' (makes it blue), 'action' (makes it yellow),
 'item' (makes it green), and 'ship' (short for "relationship") (makes it red).
+Any unacceptable string for styleId will cause black styling
 */
 function showPopup(styleId, timeStamp, gifName, answer){
   //error message for no answer
