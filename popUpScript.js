@@ -1,6 +1,6 @@
 
 //SHOWS THE POPUP WITH THE RESPONSE CORRESPODNING TO THAT ANIMATION
-function showPopup(styleId, timeStamp, answer){
+function showPopup(styleId, timeStamp, gifName, answer){
   //error message for no answer
   if (answer==undefined)
   {
@@ -36,6 +36,9 @@ function showPopup(styleId, timeStamp, answer){
   //printing answer/timestamp
   document.getElementById("answerText").innerHTML = answer;
   document.getElementById("timeStamp").innerHTML = '- ' + timeStamp;
+
+  //changing the gif
+  document.getElementById("smIllus").src=gifName;
 }
 
 //CLOSES THE POPUP
