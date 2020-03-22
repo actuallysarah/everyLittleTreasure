@@ -95,6 +95,6 @@ function changeMobile(){
   }
 
   //lets see if the function is being called
-  document.getElementsById('menuOptions').innerHTML=isMobile;
+  document.getElementsById('menuOptions').innerHTML='boy howdy';
 
 }
