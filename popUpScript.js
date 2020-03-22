@@ -92,7 +92,9 @@ function changeMobile(){
     document.getElementById('popUpBox').style.height='80%';
     document.getElementById('popUpBox').style.top='10%';
     document.getElementById('popUpBox').style.left='10%';
-
   }
+
+  //lets see if the function is being called
+  document.getElementsById('menuOptions').innerHTML=isMobile;
 
 }
