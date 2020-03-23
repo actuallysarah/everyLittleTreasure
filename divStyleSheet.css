@@ -34,7 +34,7 @@ p.bodyCopy{
 /* STYLING FOR THE aHEAD and MENU*/
 #aHead{
 	  font-family: Abril Fatface;
-		font-size: 8vw
+		font-size: 8vw;
 		text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ p.bodyCopy{
 
 #menuOptions{
 	font-family: 'Roboto', sans-serif;
-	font-size: 40px;
+	font-size: 3vw;
 	color: #848484;
 	word-spacing: 5vw;
 	text-decoration: none;
