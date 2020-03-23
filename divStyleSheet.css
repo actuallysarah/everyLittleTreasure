@@ -34,7 +34,7 @@ p.bodyCopy{
 /* STYLING FOR THE aHEAD and MENU*/
 #aHead{
 	  font-family: Abril Fatface;
-		font-size: 120px;
+		font-size: 8vw
 		text-decoration: none;
 }
 
@@ -74,11 +74,11 @@ a{
 	text-decoration: none;
 }
 
-/*Fixing leading on menu
+Fixing leading on menu
 h1.websiteTop{
 		line-height: 20%;
 
-}*/
+}
 
 /* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 	div.square {
