@@ -143,7 +143,7 @@ h1.websiteTop{
 
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
-		font-size: 1.5vw;
+		font-size: 40%;
 
 		height: 40%;
 		bottom: 50%;
@@ -157,12 +157,20 @@ h1.websiteTop{
 
 #popupImageContainer{
 	position: absolute;
-	width: 80%;
+	width:80%;
+	left: 10%;
+	display: inline-block;
+
+	text-align: center;
+
+	height: 40%;
+	bottom: 10%;
 
 	/* border for centering*/
 	border-style: double;
 	border-width: 10px;
 	border-color: black;
+
 }
 
 	img.popupImage{
