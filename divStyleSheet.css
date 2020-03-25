@@ -148,13 +148,22 @@ h1.websiteTop{
 		height: 40%;
 		bottom: 50%;
 
-		/* border for centering
+		/* border for centering*/
 		border-style: double;
 		border-width: 10px;
 		border-color: black;
-		*/
 
 	}
+
+#popupImageContainer{
+	position: absolute;
+	width: 80%;
+
+	/* border for centering*/
+	border-style: double;
+	border-width: 10px;
+	border-color: black;
+}
 
 	img.popupImage{
 		position: absolute;
