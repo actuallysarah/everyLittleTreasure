@@ -143,7 +143,7 @@ h1.websiteTop{
 
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
-		font-size: 1.5vw;
+		font-size: 1.25vw;
 
 		height: 40%;
 		bottom: 50%;
@@ -167,7 +167,7 @@ h1.websiteTop{
 
 	#timeStamp{
 		font-family: 'Roboto', sans-serif;
-		font-size: 1.75vw;
+		font-size: 1.75v;
 		text-align: right;
 
 	}
