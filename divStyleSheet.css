@@ -36,6 +36,7 @@ p.bodyCopy{
 	  font-family: Abril Fatface;
 		font-size: 8vw;
 		text-decoration: none;
+		margin-bottom: 0;
 }
 
 #conBlue{
@@ -60,6 +61,7 @@ p.bodyCopy{
 	color: #848484;
 	word-spacing: 5vw;
 	text-decoration: none;
+	margin-top: 0;
 }
 
 #subtitle{
