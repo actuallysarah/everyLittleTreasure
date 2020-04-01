@@ -16,7 +16,7 @@ function showPopup(styleId, timeStamp, gifName, answer){
   {
     answer="no answer defined";
   }
-  //will changing the gif first fix my problems I wonder. 
+  //will changing the gif first fix my problems I wonder. (Update: it did not.)
   //changing the gif
   document.getElementById("smIllus").src=gifName;
 
