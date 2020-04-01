@@ -16,6 +16,9 @@ function showPopup(styleId, timeStamp, gifName, answer){
   {
     answer="no answer defined";
   }
+  //will changing the gif first fix my problems I wonder. 
+  //changing the gif
+  document.getElementById("smIllus").src=gifName;
 
   //changing colors to match category
   if (styleId=='concept'){
@@ -47,8 +50,6 @@ function showPopup(styleId, timeStamp, gifName, answer){
   document.getElementById("answerText").innerHTML = answer;
   document.getElementById("timeStamp").innerHTML = '- ' + timeStamp;
 
-  //changing the gif
-  document.getElementById("smIllus").src=gifName;
 }
 
 //CLOSES THE POPUP
