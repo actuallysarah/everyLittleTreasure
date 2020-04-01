@@ -93,6 +93,7 @@ h1.websiteTop{
 			margin: 5px;
 			border-style: double;
 			border-width: 5px;
+			cursor: pointer;
 		}
 
 		#concept{
@@ -181,6 +182,7 @@ h1.websiteTop{
 		right: 10%;
 		bottom: 10%;
 		color: #848484;
+		cursor: pointer;
 	}
 
 	#dimmedScreen{
