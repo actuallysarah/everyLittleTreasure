@@ -210,7 +210,7 @@ h1.websiteTop{
 	/*********************FOR MOBILE*********************/
 	/* STYLING FOR TEXT NEEDED FOR INFORMATIONAL PAGES (like bHead, body copy, etc)*/
 
-@media only screen and (max-width : 768px){ /*so this is what happens at BELOW 768 px*/
+@media only screen and (max-width : 900px){ /*so this is what happens at BELOW 768 px*/
 
 	h1.bHead{
 		font-family: Abril Fatface;
