@@ -46,11 +46,11 @@ function showPopup(styleId, timeStamp, gifName, answer){
   var ansLen = answer.length; //n = the character length of the answer
   if (ansLen < 80){
   //console.log ("The if statement is TRUE!");
-  document.getElementById('answerText').style.fontSize='30px';
+  document.getElementById('answerText').style.fontSize='10px';
   }
   else{
     //console.log ("The if statement is FALSE!");
-    document.getElementById('answerText').style.fontSize='15px';
+    document.getElementById('answerText').style.fontSize='5px';
   }
 
   //console.log ("the length of the answer is: " + ansLen);
