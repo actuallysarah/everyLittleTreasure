@@ -66,7 +66,7 @@ All the squares are styled as a class, and individual colors are assigned with a
 
 /*********************FOR DESKTOP*********************/
 /* STYLING FOR TEXT NEEDED FOR INFORMATIONAL PAGES (like bHead, body copy, etc)*/
-@media only screen and (min-width : 769px){ /*so this is what happens at BELOW 768 px*/
+@media only screen and (min-width : 769px){ /*so this is what happens at ABOVE 600 px*/
 
 h1.bHead{
 	font-family: Abril Fatface;
@@ -165,9 +165,6 @@ h1.websiteTop{
 		left: 10%;
 		display: inline-block;
 
-		text-align: center;
-		font-family: 'Roboto', sans-serif;
-		font-size: 1.1vw;
 
 		height: 40%;
 		bottom: 50%;
@@ -177,8 +174,13 @@ h1.websiteTop{
 		border-width: 10px;
 		border-color: black;
 		*/
-
 	}
+
+#answerText{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+}
 
 	img.popupImage{
 		position: absolute;
@@ -214,7 +216,7 @@ h1.websiteTop{
 
 	h1.bHead{
 		font-family: Abril Fatface;
-		font-size: 50pt;
+		font-size: 30pt;
 		text-decoration: none;
 		line-height: 112%;
 		text-align: left;
@@ -231,14 +233,14 @@ h1.websiteTop{
 	/* STYLING FOR THE aHEAD and MENU*/
 	#aHead{
 		  font-family: Abril Fatface;
-			font-size: 75pt;
+			font-size: 50pt;
 			text-decoration: none;
 			margin-bottom: 0;
 	}
 
 	#menuOptions{
 		font-family: 'Roboto', sans-serif;
-		font-size: 30pt;
+		font-size: 25pt;
 		color: #848484;
 		word-spacing: 5vw;
 		text-decoration: none;
@@ -265,8 +267,8 @@ h1.websiteTop{
 
 	/* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 		div.square {
-			width: 90vw;
-	   		height: 90vw;
+			width: 70vw;
+	   		height: 70vw;
 	   		background-color:white;
 	   		z-index: -1;
 				display: inline-block;
@@ -282,7 +284,7 @@ h1.websiteTop{
 	  	margin-left: auto;
 	  	margin-right: auto;
 			margin-top: 15vw;
-			width: 70vw;
+			width: 50vw;
 			}
 
 	/*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
@@ -308,12 +310,8 @@ h1.websiteTop{
 			left: 10%;
 			display: inline-block;
 
-			text-align: center;
-			font-family: 'Roboto', sans-serif;
-			font-size: 12pt;
-
 			height: 40%;
-			bottom: 50%;
+			margin-top: 3%;
 
 			/* border for centering
 			border-style: double;
@@ -323,18 +321,24 @@ h1.websiteTop{
 
 		}
 
+		#answerText{
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-size: 12pt;
+		}
+
 		img.popupImage{
 			position: absolute;
 			display: block;
-	  	margin-left: 20%;
+	  	margin-left: auto;
 	  	margin-right: auto;
 			bottom: 5%;
-			width: 40%;
+			width: 80%;
 		}
 
 		#timeStamp{
 			font-family: 'Roboto', sans-serif;
-			font-size: 1.75v;
+			font-size: 12pt;
 			text-align: right;
 
 		}
@@ -342,9 +346,9 @@ h1.websiteTop{
 		#backButton{
 			position: absolute;
 			font-family: 'Roboto', sans-serif;
-			font-size: 25px;
-			right: 10%;
-			bottom: 10%;
+			font-size: 15pt;
+			right: 8%;
+			bottom: 0%;
 			color: #848484;
 			cursor: pointer;
 		}

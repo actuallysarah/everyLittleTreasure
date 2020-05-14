@@ -42,6 +42,20 @@ function showPopup(styleId, timeStamp, gifName, answer){
     document.getElementById('popUpBox').style.borderColor='black';
   }
 
+  //Making text larger if the answer is less than 20 characters
+  var ansLen = answer.length; //n = the character length of the answer
+  if (ansLen < 80){
+  //console.log ("The if statement is TRUE!");
+  document.getElementById('answerText').style.fontSize='24pt';
+  }
+  else{
+    //console.log ("The if statement is FALSE!");
+    document.getElementById('answerText').style.fontSize='12pt';
+  }
+
+  //console.log ("the length of the answer is: " + ansLen);
+
+
   //MAKING THE POPUP AND DIMMED SCREEN VISIBLE
   document.getElementById('popUpBox').style.visibility='visible';
   document.getElementById('dimmedScreen').style.visibility='visible';
