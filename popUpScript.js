@@ -50,7 +50,7 @@ function showPopup(styleId, timeStamp, gifName, answer){
   }
   else{
     //console.log ("The if statement is FALSE!");
-    document.getElementById('answerText').style.fontSize='20px';
+    document.getElementById('answerText').style.fontSize='15px';
   }
 
   //console.log ("the length of the answer is: " + ansLen);
