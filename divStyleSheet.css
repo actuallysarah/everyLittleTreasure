@@ -68,8 +68,6 @@ h1.websiteTop{
 /*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
 div.popup{
   position: fixed;
-  top: 10%;
-  left: 30%;
   border-style: double;
   border-width: 10px;
   border-color: lightblue;
@@ -78,6 +76,7 @@ div.popup{
   visibility: hidden;
   padding: 35px;
   box-sizing: border-box;
+	top: 10%
   }
 
 	#dimmedScreen{
@@ -198,6 +197,8 @@ div.popup{
 		div.popup{
 			width: 40%;
 			height: 80%;
+			top: 10%;
+			left: 30%;
 			}
 
 	#popupTextContainer{
@@ -294,8 +295,9 @@ div.popup{
 	/*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
 	div.popup{
 		width: 60%;
-		margin: auto;
 		height: 80%;
+		margin-right: 20%;
+		margin-left: 20%;
 	}
 
 		#popupTextContainer{
@@ -323,12 +325,12 @@ div.popup{
 		}
 		/*61-120+characters*/
 		p.medAnswer{
-			font-size: 9pt;
+			font-size: 12pt;
 
 		}
 		/*60 characters or below*/
 		p.shortAnswer{
-			font-size: 12pt;
+			font-size: 14pt;
 
 		}
 
