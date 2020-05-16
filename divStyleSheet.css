@@ -185,7 +185,7 @@ div.popup{
 		}
 
 
-		img {
+		img.treasureClickImage {
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -280,16 +280,16 @@ div.popup{
 	/* STYLING FOR THE SQUARES WITH ANIMATIONS*/
 	div.square {
 		width: 70vw;
-			height: 70vw;
-			margin: 5vw;
+		height: 70vw;
+		margin: 5vw;
 		}
 
-			img {
-	  	display: block;
-	  	margin-left: auto;
-	  	margin-right: auto;
-			margin-top: 15vw;
-			width: 50vw;
+		img.treasureClickImage {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+		margin-top: 8vw;
+		width: 50vw;
 			}
 
 	/*STYLING THE POPUP WINDOW WITH THE RESPONSE*/
@@ -320,7 +320,7 @@ div.popup{
 		/*These classes are assigned to answerText when the script is called depending on the length of the answer*/
 		/*121+characters*/
 		p.longAnswer{
-			font-size: 8pt;
+			font-size: 10pt;
 
 		}
 		/*61-120+characters*/
@@ -339,7 +339,7 @@ div.popup{
 			display: block;
 	  	margin-left: auto;
 	  	margin-right: auto;
-			bottom: 5%;
+			bottom: 8%;
 			width: 80%;
 		}
 
