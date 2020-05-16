@@ -317,17 +317,17 @@ div.popup{
 		/*These classes are assigned to answerText when the script is called depending on the length of the answer*/
 		/*121+characters*/
 		p.longAnswer{
-			font-size: 10pt;
+			font-size: 8pt;
 
 		}
 		/*61-120+characters*/
 		p.medAnswer{
-			font-size: 12pt;
+			font-size: 9pt;
 
 		}
 		/*60 characters or below*/
 		p.shortAnswer{
-			font-size: 14pt;
+			font-size: 12pt;
 
 		}
 
