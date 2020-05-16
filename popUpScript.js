@@ -46,14 +46,14 @@ function showPopup(styleId, timeStamp, gifName, answer){
   var ansLen = answer.length; //n = the character length of the answer
   if (ansLen < 60){
   //console.log ("The if statement is TRUE!");
-  document.getElementById('answerText').style.fontSize='1.6vw';
+  document.getElementById('answerText').className="shortAnswer";
   }
   else if (ansLen >= 61 && ansLen <120){
-    document.getElementById('answerText').style.fontSize='1.25vw';
+    document.getElementById('answerText').className="medAnswer";
   }
   else{
     //console.log ("The if statement is FALSE!");
-    document.getElementById('answerText').style.fontSize='1vw';
+    document.getElementById('answerText').className="longAnswer";
   }
 
   //console.log ("the length of the answer is: " + ansLen);
