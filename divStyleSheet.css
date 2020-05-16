@@ -8,7 +8,7 @@ All the squares are styled as a class, and individual colors are assigned with a
 
 /*STYLING FOR BODY TEXT*/
 h1.bHead{
-	font-family: Abril Fatface;
+	  font-family: Abril Fatface;
 	text-decoration: none;
 	text-align: left;
 	}
